@@ -3,11 +3,9 @@
   "main": "./lib/breakpoints",
   "version": "1.0.0",
   "description": "Create and manage breakpoints for use in gdb.",
-  "keywords": [
-	  "gdb", "breakpoint", "debug"
-  ],
+  "keywords": [ "gdb", "breakpoint", "debug" ],
   "activationCommands": {},
-  "repository": "https://github.com/8bitslime/breakpoints.git",
+  "repository": "https://github.com/8bitslime/breakpoints",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
