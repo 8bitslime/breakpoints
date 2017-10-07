@@ -1,7 +1,7 @@
 {
   "name": "Breakpoints",
   "main": "./lib/breakpoints",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Create and manage breakpoints for use in gdb.",
   "keywords": [ "gdb", "breakpoint", "debug" ],
   "activationCommands": {},
