@@ -1,0 +1,34 @@
+{
+	"context-menu": {
+	  "atom-text-editor": [
+		  {
+			  "label": "Toggle Breakpoint",
+			  "command": "breakpoints:toggle"
+		  },
+		  {
+			  "label": "Clear Breakpoints",
+			  "command": "breakpoints:clear"
+		  }
+	  ]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "Breakpoints",
+					"submenu": [
+						{
+							"label": "Toggle Breakpoint",
+							"command": "breakpoints:toggle"
+						},
+						{
+							"label": "Clear Breakpoints",
+							"command": "breakpoints:clear"
+						}
+					]
+				}
+			]
+		}
+	]
+}
