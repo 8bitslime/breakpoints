@@ -1,12 +1,12 @@
 # Breakpoints
-A simple extension for controlling gdb breakpoints.
+A simple extension for managing breakpoints in gdb.
 
-### How to use it
+### How do you use it?
 
-Pressing `F9` will toggle breakpoints on the current line. These breakpoints will be saved in `projectDir/.breakpoints` by default in a format that gdb can use with the command line argument `-x .breakpoints`. Be sure to compile all files with the `-g` option or this will not work.
+Pressing `F9` will toggle a breakpoint on the current line. The breakpoints will be saved in `(Project root)/.breakpoints` by default in a format that gdb can use with the command line argument `-x .breakpoints`. Be sure to compile all files with the `-g` option or this may not work.
 
-### To-do list
+### On the to-do list:
 
-- add an image of it working
-- customizable breakpoint format
-- other settings and options
+- update when manually changing breakpoint file
+- customizable format for use in other debuggers
+- other customizations
